@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" 
+  crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" 
+  crossorigin="anonymous"></script>
+
+  <!-- For local websites use the following jquery -->
+
+  <!--   <script type="text/JavaScript" src="jquery.min.js"></script> -->
+
+
+
+  <!-- For production websites used the below jquery-->
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+
+    
+  <!-- Get Boostrap icons from here: https://icons.getbootstrap.com/#install -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <title>YogFit World</title>
+
+
+  <style>
+    .nav-link, #nav-item-1 { 
+      color: wheat;
+    }
+
+    .navbar-brand { 
+      color: white;
+    }
+     
+    .navbar-toggler {
+        background-color: white;
+    }
+
+  
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Top Navbar -->
+  <div class="container-fluids ">
+    <nav class="navbar navbar-expand-md sticky-top bg-dark">
+      <div class="container-fluid ">
+        <!-- The brand image or text -->
+         <a class="navbar-brand" href="#">YogFit World</a> 
+
+        <!-- The toggler icon for <md sizes -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle">
+          <span class="navbar-toggler-icon"></span>
+        </button> 
+        <!-- The actual navigation -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-item-1" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+        </div> 
+
+        <!-- The search form  -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" placeholder="Search">
+          <button class="btn btn-sm btn-primary" type="submit">Search</button>
+        </form>
+
+      </div>
+    </nav>
+  </div>
+
+
+
+  <div class="px-4 pt-5 my-5 text-center">
+
+     <h1 class="display-4 fw-bold">YOGI SANDEEP KAUR</h1>
+
+     <div class="col-lg-10 mx-auto">
+      <p class="lead mb-4">Boost flexibility, reduce stress, improve focus, and 
+        enhance overall well-being<br>Yoga is your 
+        path to a healthier, more balanced body and mind.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Join Today!</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">See Catalog</button>
+      </div>
+    </div> 
+
+     <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <div class="main-img">
+        <img src="yoga-1.jpg" class="img-fluid border rounded-3 shadow-lg mb-3" alt="Example image" width="700"
+          height="500"  loading="lazy">
+        </div>
+      </div>
+    </div> 
+
+  </div>
+
+
+  <div class="container col-lg-10 px-4">
+    <div class="row align-items-center g-lg-5 py-5">
+      
+       <div class="col-lg-7 text-center text-lg-start">
+        <h1 class="display-4 fw-bold lh-1 mb-3">Sign up to Our Newsletter!</h1>
+        <p class="col-lg-10 fs-4">Get all the latest updates right in your inbox! We add new courses all the time and as
+          a subscriber, you will get access to all the early bird coupons. </p>
+      </div> 
+
+       <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-light" data-bitwarden-watching="1">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+          <hr class="my-4">
+          <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+        </form>
+      </div> 
+
+    </div>
+  </div>
+
+
+
+  <div class="container my-4 text-center">
+    <div class="row col-lg-12 gx-3  ">
+
+      <!-- repeat -->
+      <div class="col-sm-6 col-lg-4 ">
+
+        <div class="card mt-4">
+          <img src="yoga-3.jpg" class="card-img-top" alt="Opposites">
+          <div class="card-body">
+            <h5 class="card-title">30 DAY YOGA COURSE</h5>
+            <p class="card-text">Give your body the nourishment and strength it deserves!
+                <br>Join the 30 day yoga course @2999/-
+            </p>
+            <p>LIMITED TIME OFFER!</p>
+            <a href="#" class="btn btn-primary">Get your seat!</a>
+          </div>
+        </div>
+
+      </div> 
+
+      <!-- repeat -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card mt-4">
+          <img src="yoga-2.jpg" class="card-img-top" alt="Opposites">
+          <div class="card-body">
+            <h5 class="card-title">YOGA ANATOMY COURSE</h5>
+            <p class="card-text">Human Anatomy is a great skill to start off as a yoga intructor.
+                <br>Join now to get enrolled @9500/-
+                <br>*CERTIFICATE INCLUDED*
+            </p>
+            <p>LIMITED TIME OFFER!</p>
+            <a href="#" class="btn btn-primary">Get your seat!</a>
+          </div>
+        </div>
+      </div> 
+
+      <!-- repeat -->
+       <div class="col-sm-6 col-lg-4">
+        <div class="card mt-4">
+          <img src="yoga-4.jpg" class="card-img-top" alt="Opposites">
+          <div class="card-body">
+            <h5 class="card-title">Face Yoga Course</h5>
+            <p class="card-text">Does your face looks aged? Guess what.. You could still young and pretty.
+                <br> Join the FACE YOGA COURSE now! @4500/-
+            </p>
+            <p>LIMITED TIME OFFER!</p>
+            <a href="#" class="btn btn-primary">Get your seat!</a>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- end of 3 cards -->
+
+
+  </div>
+
+
+
+
+  <div class="container my-4 pt-5 text-center">
+     <h2 class="display-6 text-center mb-4">Compare plans</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>COURSES</th>
+          <th>DURATION</th>
+          <th>PRICE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Online Yoga Course</td>
+          <td>30 Days</td>
+          <td><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/rupee.png" alt="rupee"/>2999/-</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Yoga Anatomy Course</td>
+          <td> Till Completion</td>
+          <td><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/rupee.png" alt="rupee"/>9500/-</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Face Yoga Course</td>
+          <td>Till Completion</td>
+          <td><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/rupee.png" alt="rupee"/>4500/-</td>
+        </tr>
+
+        <tr>
+            <th>4</th>
+            <td>All Courses</td>
+            <td>As Mentioned</td>
+            <td><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/rupee.png" alt="rupee"/>13999/-</td>
+          </tr>
+      </tbody>
+    </table>
+    <p class="py-4">
+      YogFit World is a step towards making the life of humans worldwide healthier and future brighter! 
+    </p> 
+  </div>
+
+
+
+
+ 
+
+  </main>
+
+  <footer class="bg-dark text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold text-white">KNOW ABOUT YOUR TEACHER!</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="fs-5 mb-4">Namaste Yogis!
+            <br>I am your instructor Sandeep Kaur. I have been practicing YOG for past 10 years
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Find out more!</button>
+          <button type="button" class="btn btn-outline-light btn-lg px-4">Get in Touch</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
